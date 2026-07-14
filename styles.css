@@ -1,5 +1,7 @@
 body {
     background-color: grey;
+    margin: 0;
+    padding: 0;
 }
 
 /*Nav styles*/
@@ -146,13 +148,24 @@ nav p {
     display: flex;
 }
 
-.form-box input, .form-box label {
+.form-box input, .form-box label, .form-box textarea {
     margin: 1rem;
 }
 
 .form-button {
     display: flex;
     justify-content: center;
+}
+
+form button {
+    padding: 1rem 2rem;
+    background-color: rgb(82, 81, 81);
+    color: whitesmoke;
+}
+
+form button:hover {
+    background-color: white;
+    color: black;
 }
 
 .chall-4-imgs {
